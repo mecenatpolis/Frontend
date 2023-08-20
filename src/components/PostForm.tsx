@@ -2,12 +2,14 @@ import axios from 'axios';
 import React,{Component} from 'react';
 
 
+//예시
 interface ApiProps{
     url:string,
     data:string
 }
 
 class PostForm extends Component{
+    //연습
     constructor(props:ApiProps){
         super(props)
         this.state={
